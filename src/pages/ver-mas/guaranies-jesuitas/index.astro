@@ -3,20 +3,50 @@ import Layout from "../../../layouts/Layout.astro";
 ---
 
 <Layout title="Guaraníes y Jesuitas | Batalla de Mborore">
-  <main
-    class="flex flex-col items-center justify-center p-6 h-full text-center"
-  >
-    <h2
-      transition:name="guaranies-jesuitas-ttl"
-      class="md:text-8xl text-6xl font-bold text-primary mb-4"
-    >
-      Guaraníes <span class="text-secondary">y Jesuitas</span>
-    </h2>
-    <img
-      transition:name="guaranies-jesuitas-img"
-      src="/guarani-jesuita.webp"
-      alt="Imagen de los Guaraníes y Jesuitas"
-      class="w-max h-auto mb-4"
-    />
+  <main>
+    <div class="absolute top-0 left-0 w-full text-center b-8">
+      <h2
+        transition:name="guaranies-jesuitas-ttl"
+        class="md:text-8xl text-6xl font-bold text-primary tracking-wide"
+      >
+        Guaraníes <span class="text-primary md:text-secondary">y Jesuitas</span>
+      </h2>
+    </div>
+    <div class="flex flex-col md:flex-row min-h-screen">
+      <div
+        class="w-full md:w-1/2 bg-secondary p-6 flex flex-col items-center justify-center"
+      >
+        <div class="mt-24">
+          <p class="text-lg md:text-4xl font-regular text-black m-4">
+            Aproximadamente 800 años antes del descubrimiento de América, un
+            pueblo que pertenecía a un tronco lingüístico, al que llamaremos
+            guaraní, fue llegando a las regiones de Brasil y Paraguay. En el
+            caso de nuestro país, ocuparon los territorios que anteriormente
+            pertenecían a un grupo étnico llamado <span
+              class="font-bold text-primary">Kaingang Ge</span
+            >.
+          </p>
+          <p class="text-lg md:text-4xl text-black font-regular m-4">
+            Ambas etnias se encontraron en un desarrollo cultural perteneciente
+            al <span class="font-bold text-primary">Paleolítico</span>, es
+            decir, en lo que llamaríamos <span class="font-bold text-primary"
+              >Protohistoria</span
+            >, un estado de desarrollo propio de la prehistoria, pero aún
+            presente en plena Edad Moderna.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="w-full md:w-1/2 bg-primary p-6 flex items-center justify-center"
+      >
+        <img
+          transition:name="guaranies-jesuitas-img"
+          src="/guarani-jesuita.webp"
+          alt="Imagen de los Guaraníes y Jesuitas"
+          class="w-max h-auto mb-4"
+        />
+      </div>
+    </div>
   </main>
 </Layout>
