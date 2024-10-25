@@ -1,7 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import LiteYoutube from "../components/ui/LiteYoutube.astro";
-import ArrowLeft from "../icons/ArrowLeft.astro";
+import ArrowRight from "../icons/ArrowRight.astro";
+import Button from "../components/ui/Button.astro";
 ---
 
 <Layout title="La batalla de Mbororé">
@@ -11,9 +12,9 @@ import ArrowLeft from "../icons/ArrowLeft.astro";
       alt="Fondo"
       class="absolute inset-0 object-cover w-full h-full"
     />
-    <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     <div
-      class="relative z-10 flex flex-col gap-y-8 md:gap-y-16 lg:gap-y-32 items-center justify-center h-full text-[#DBD8C8] px-4"
+      class="relative z-10 flex flex-col gap-y-8 md:gap-y-16 lg:gap-y-32 items-center justify-center h-full text-secondary px-4"
     >
       <h1
         class="text-6xl md:text-6xl lg:text-8xl xl:text-9xl font-bold text-center tracking-widest"
@@ -25,16 +26,14 @@ import ArrowLeft from "../icons/ArrowLeft.astro";
       >
         <LiteYoutube title="Batalla de Mbororé" videoId="dQw4w9WgXcQ" />
       </div>
-      <a
-        target="_blank"
-        rel="noopener"
-        aria-label="La batalla de Mbororé en Youtube"
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        class="px-8 py-3 md:px-16 md:py-4 bg-[#62060F] text-[#DBD8C8] rounded-xl text-xl md:text-2xl font-bold hover:scale-110 transition flex items-center justify-between gap-4 md:gap-6"
+      <Button
+        href="/ver-mas"
+        label="Ver más"
+        bgColor="primary"
+        textColor="secondary"
       >
-        Ver más
-        <ArrowLeft class="w-4 h-4 md:w-6 md:h-6 text-[#DBD8C8]" />
-      </a>
+        <ArrowRight class="w-4 h-4 md:w-6 md:h-6" />
+      </Button>
     </div>
   </main>
 </Layout>
