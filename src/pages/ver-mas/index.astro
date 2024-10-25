@@ -1,0 +1,83 @@
+---
+import Button from "../../components/ui/Button.astro";
+import ArrowLeft from "../../icons/ArrowLeft.astro";
+import ArrowRight from "../../icons/ArrowRight.astro";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Ver más">
+  <main class="grid grid-cols-1 sm:grid-cols-3 h-screen">
+    <!-- Sección 1: Guaraníes y Jesuitas -->
+    <section
+      class="bg-secondary flex flex-col items-center justify-center p-6 h-full text-center"
+    >
+      <h2 class="md:text-8xl text-6xl font-bold text-primary mb-4">
+        Guaraníes y Jesuitas
+      </h2>
+      <img
+        src="/guarani-jesuita.webp"
+        alt="Imagen de los Guaraníes y Jesuitas"
+        class="w-max h-auto mb-4"
+      />
+      <Button
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t"
+        label="Ver más"
+        bgColor="primary"
+        textColor="secondary"
+      >
+        <ArrowRight class="w-4 h-4 md:w-6 md:h-6" />
+      </Button>
+    </section>
+
+    <!-- Sección 2: La Batalla -->
+    <section
+      class="bg-primary flex flex-col items-center justify-center p-6 h-full text-center order-first sm:order-none"
+    >
+      <h2 class="md:text-8xl text-6xl font-bold text-secondary mb-4">
+        La Batalla
+      </h2>
+      <a
+        href="/"
+        class="text-secondary flex items-center justify-between gap-x-2 hover:scale-110 transition"
+      >
+        <ArrowLeft class="w-3 h-3" />
+        Volver
+      </a>
+      <img
+        src="/batalla.webp"
+        alt="Imagen de la batalla"
+        class="w-max h-auto mb-4"
+      />
+      <Button
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t"
+        label="Ver más"
+        bgColor="secondary"
+        textColor="primary"
+      >
+        <ArrowRight class="w-4 h-4 md:w-6 md:h-6" />
+      </Button>
+    </section>
+
+    <!-- Sección 3: Bandeirantes -->
+    <section
+      class="bg-secondary flex flex-col items-center justify-center p-6 h-full text-center"
+    >
+      <h2 class="md:text-8xl text-6xl font-bold text-primary mb-4">
+        Bandeirantes
+      </h2>
+      <img
+        src="/bandeirantes.webp"
+        alt="Imagen de los Bandeirantes"
+        class="w-max h-auto mb-4"
+      />
+      <Button
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t"
+        label="Ver más"
+        bgColor="primary"
+        textColor="secondary"
+      >
+        <ArrowRight class="w-4 h-4 md:w-6 md:h-6" />
+      </Button>
+    </section>
+  </main>
+</Layout>
