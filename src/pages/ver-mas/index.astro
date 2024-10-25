@@ -9,12 +9,23 @@ import Layout from "../../layouts/Layout.astro";
   <main class="grid grid-cols-1 sm:grid-cols-3 h-screen">
     <!-- Sección 1: Guaraníes y Jesuitas -->
     <section
-      class="bg-secondary flex flex-col items-center justify-center p-6 h-full text-center"
+      class="bg-secondary flex flex-col items-center justify-between p-6 h-full text-center"
     >
-      <h2 class="md:text-8xl text-6xl font-bold text-primary mb-4">
+      <h2
+        transition:name="guaranies-jesuitas-ttl"
+        class="md:text-8xl text-6xl font-bold text-primary mb-4"
+      >
         Guaraníes y Jesuitas
       </h2>
+      <a
+        href="/"
+        class="text-primary md:hidden flex items-center justify-between gap-x-2 hover:scale-110 transition"
+      >
+        <ArrowLeft class="w-3 h-3" />
+        Volver
+      </a>
       <img
+        transition:name="guaranies-jesuitas-img"
         src="/guarani-jesuita.webp"
         alt="Imagen de los Guaraníes y Jesuitas"
         class="w-max h-auto mb-4"
@@ -29,16 +40,15 @@ import Layout from "../../layouts/Layout.astro";
       </Button>
     </section>
 
-    <!-- Sección 2: La Batalla -->
     <section
-      class="bg-primary flex flex-col items-center justify-center p-6 h-full text-center order-first sm:order-none"
+      class="bg-primary flex flex-col items-center justify-between p-6 h-full text-center"
     >
       <h2 class="md:text-8xl text-6xl font-bold text-secondary mb-4">
         La Batalla
       </h2>
       <a
         href="/"
-        class="text-secondary flex items-center justify-between gap-x-2 hover:scale-110 transition"
+        class="text-secondary md:flex items-center justify-between gap-x-2 hover:scale-110 transition hidden"
       >
         <ArrowLeft class="w-3 h-3" />
         Volver
@@ -58,9 +68,8 @@ import Layout from "../../layouts/Layout.astro";
       </Button>
     </section>
 
-    <!-- Sección 3: Bandeirantes -->
     <section
-      class="bg-secondary flex flex-col items-center justify-center p-6 h-full text-center"
+      class="bg-secondary flex flex-col items-center justify-between p-6 h-full text-center"
     >
       <h2 class="md:text-8xl text-6xl font-bold text-primary mb-4">
         Bandeirantes
