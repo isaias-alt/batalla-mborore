@@ -27,7 +27,6 @@ const { videoId, title, backgroundImage } = Astro.props;
 </lite-youtube>
 
 <script>
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-nocheck
 
   class LiteYTEmbed extends HTMLElement {
@@ -96,7 +95,7 @@ const { videoId, title, backgroundImage } = Astro.props;
 
       LiteYTEmbed.addPrefetch(
         "preconnect",
-        "https://googleads.g.doubleclick.net",
+        "https://googleads.g.doubleclick.net"
       );
       LiteYTEmbed.addPrefetch("preconnect", "https://static.doubleclick.net");
 
