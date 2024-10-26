@@ -70,16 +70,20 @@ import Layout from "../../layouts/Layout.astro";
     <section
       class="flex h-full flex-col items-center justify-between bg-secondary p-6 text-center"
     >
-      <h2 class="mb-4 text-6xl font-bold text-primary md:text-8xl">
+      <h2
+        class="mb-4 text-6xl font-bold text-primary md:text-8xl"
+        transition:name="bandeirantes-ttl"
+      >
         Bandeirantes
       </h2>
       <img
+        transition:name="bandeirantes-img"
         src="/bandeirantes.webp"
         alt="Imagen de los Bandeirantes"
         class="mb-4 h-auto w-max"
       />
       <Button
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t"
+        href="/ver-mas/bandeirantes"
         label="Ver más"
         bgColor="primary"
         textColor="secondary"
