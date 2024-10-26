@@ -4,20 +4,20 @@ import Layout from "../../../layouts/Layout.astro";
 
 <Layout title="Guaraníes y Jesuitas | Batalla de Mborore">
   <main>
-    <div class="absolute top-0 left-0 w-full text-center b-8">
+    <div class="b-8 absolute left-0 top-0 w-full text-center">
       <h2
         transition:name="guaranies-jesuitas-ttl"
-        class="md:text-8xl text-6xl font-bold text-primary tracking-wide"
+        class="text-6xl font-bold tracking-wide text-primary md:text-8xl"
       >
         Guaraníes <span class="text-primary md:text-secondary">y Jesuitas</span>
       </h2>
     </div>
-    <div class="flex flex-col md:flex-row min-h-screen">
+    <div class="flex min-h-screen flex-col md:flex-row">
       <div
-        class="w-full md:w-1/2 bg-secondary p-6 flex flex-col items-center justify-center"
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
       >
         <div class="mt-24">
-          <p class="text-lg md:text-4xl font-regular text-black m-4">
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
             Aproximadamente 800 años antes del descubrimiento de América, un
             pueblo que pertenecía a un tronco lingüístico, al que llamaremos
             guaraní, fue llegando a las regiones de Brasil y Paraguay. En el
@@ -26,7 +26,7 @@ import Layout from "../../../layouts/Layout.astro";
               class="font-bold text-primary">Kaingang Ge</span
             >.
           </p>
-          <p class="text-lg md:text-4xl text-black font-regular m-4">
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
             Ambas etnias se encontraron en un desarrollo cultural perteneciente
             al <span class="font-bold text-primary">Paleolítico</span>, es
             decir, en lo que llamaríamos <span class="font-bold text-primary"
@@ -38,13 +38,13 @@ import Layout from "../../../layouts/Layout.astro";
       </div>
 
       <div
-        class="w-full md:w-1/2 bg-primary p-6 flex items-center justify-center"
+        class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
       >
         <img
           transition:name="guaranies-jesuitas-img"
           src="/guarani-jesuita.webp"
           alt="Imagen de los Guaraníes y Jesuitas"
-          class="w-max h-auto mb-4"
+          class="mb-4 h-auto w-max"
         />
       </div>
     </div>
