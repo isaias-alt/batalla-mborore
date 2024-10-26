@@ -9,16 +9,16 @@
 - [ ] 🐛 Bug fix (soluciona un problema)
 - [ ] 🚀 Nueva funcionalidad (nueva característica o mejora)
 - [ ] 🧹 Refactorización (cambio en el código que no afecta la funcionalidad)
-- [ ] ✅ Pruebas (agregar o modificar pruebas)
 - [ ] Otro: <!-- Describa aquí si es necesario -->
 
 ## Checklist
 
 <!-- Asegúrate de cumplir con la mayoría de estos puntos antes de enviar la PR. -->
 
+- [ ] He revisado que no haya ninguna PR (pull request) ya abierta con un problema similar
 - [ ] He verificado que mi código sigue los lineamientos del proyecto.
-- [ ] He ejecutado pruebas (si aplica) y todas han pasado.
 - [ ] He probado el proyecto localmente y no rompe ninguna funcionalidad existente.
+- [ ] He probado estos cambios en múltiples dispositivos y navegadores para asegurarme de que la landing page se vea y funcione correctamente.
 - [ ] He revisado mi código en busca de errores.
 - [ ] He agregado comentarios en el código (solo si es necesario).
 
@@ -26,6 +26,6 @@
 
 <!-- Agregar cualquier información adicional que pueda ser útil durante la revisión de la PR. -->
 
-## Imagenes de la PR
+## Capturas de pantalla (si corresponde)
 
-<!-- Agregar imágenes de la PR aquí para que se vean en la revisión de la PR. Solo si los cambios son visuales y minusculos.
+<!-- Agregar capturas de pantalla que ayuden a entender mejor el cambio realizado.
