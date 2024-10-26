@@ -42,7 +42,10 @@ import Layout from "../../layouts/Layout.astro";
     <section
       class="flex h-full flex-col items-center justify-between bg-primary p-6 text-center"
     >
-      <h2 class="mb-4 text-6xl font-bold text-secondary md:text-8xl">
+      <h2
+        class="mb-4 text-6xl font-bold text-secondary md:text-8xl"
+        transition:name="batalla-ttl"
+      >
         La Batalla
       </h2>
       <a
@@ -53,12 +56,13 @@ import Layout from "../../layouts/Layout.astro";
         Volver
       </a>
       <img
+        transition:name="batalla-img"
         src="/batalla.webp"
         alt="Imagen de la batalla"
         class="mb-4 h-auto w-max"
       />
       <Button
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t"
+        href="/ver-mas/la-batalla"
         label="Ver más"
         bgColor="secondary"
         textColor="primary"

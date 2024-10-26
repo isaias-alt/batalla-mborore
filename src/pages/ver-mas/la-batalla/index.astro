@@ -1,0 +1,53 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+---
+
+<Layout title="Guaraníes y Jesuitas | Batalla de Mborore">
+  <main>
+    <div class="b-8 absolute left-0 top-0 w-full text-center">
+      <h2
+        transition:name="batalla-ttl"
+        class="text-6xl font-bold text-primary md:text-8xl md:tracking-[2.5rem]"
+      >
+        La Ba<span class="text-primary md:text-secondary">talla</span>
+        <br />
+        <span class="text-primary md:text-primary">de Mb</span><span
+          class="text-primary md:text-secondary">ororé</span
+        >
+      </h2>
+    </div>
+    <div class="flex min-h-screen flex-col md:flex-row">
+      <div
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
+      >
+        <div class="mt-24">
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            La Batalla de Mbororé, ocurrida en marzo de 1641, fue un
+            enfrentamiento decisivo entre los bandeirantes portugueses y los
+            pueblos indígenas guaraníes organizados por los misioneros jesuitas
+            en la región del río Uruguay, cerca de la actual frontera entre
+            Argentina y Brasil.
+          </p>
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            Los bandeirantes eran cazadores de esclavos que, desde São Paulo, se
+            adentraban en tierras indígenas para capturar nativos y venderlos
+            como esclavos. Esta práctica amenazaba seriamente a las reducciones
+            jesuíticas, comunidades cristianas indígenas protegidas por la
+            Compañía de Jesús.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
+      >
+        <img
+          transition:name="batalla-img"
+          src="/batalla.webp"
+          alt="Imagen de los Guaraníes y Jesuitas"
+          class="mb-4 h-auto w-[570px]"
+        />
+      </div>
+    </div>
+  </main>
+</Layout>
