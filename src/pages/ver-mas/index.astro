@@ -8,17 +8,17 @@ import Layout from "@layouts/Layout.astro";
 <Layout title="Ver más | Batalla de Mborore">
   <main class="grid h-screen grid-cols-1 sm:grid-cols-3">
     <section
-      class="flex h-full flex-col items-center justify-between bg-secondary p-6 text-center"
+      class="flex flex-col items-center justify-between bg-secondary p-4 text-center h-full"
     >
       <h2
         transition:name="guaranies-jesuitas-ttl"
-        class="mb-4 text-6xl font-bold text-primary md:text-8xl"
+        class="mb-4 text-4xl font-bold text-primary sm:text-5xl md:text-6xl lg:text-7xl"
       >
         Guaraníes y Jesuitas
       </h2>
       <a
         href="/"
-        class="flex items-center justify-between gap-x-2 text-primary transition hover:scale-110 md:hidden"
+        class="flex items-center justify-between gap-x-2 text-primary transition hover:scale-110 sm:hidden"
       >
         <ArrowLeft class="h-3 w-3" />
         Volver
@@ -27,7 +27,7 @@ import Layout from "@layouts/Layout.astro";
         transition:name="guaranies-jesuitas-img"
         src="/guarani-jesuita.webp"
         alt="Imagen de los Guaraníes y Jesuitas"
-        class="mb-4 h-auto w-max"
+        class="mb-4 w-full max-w-xs object-contain"
       />
       <Button
         href="/ver-mas/guaranies-jesuitas"
@@ -38,19 +38,18 @@ import Layout from "@layouts/Layout.astro";
         <ArrowRight class="h-4 w-4 md:h-6 md:w-6" />
       </Button>
     </section>
-
     <section
-      class="flex h-full flex-col items-center justify-between bg-primary p-6 text-center"
+      class="flex flex-col items-center justify-between bg-primary p-4 text-center h-full"
     >
       <h2
-        class="mb-4 text-6xl font-bold text-secondary md:text-8xl"
+        class="mb-4 text-4xl font-bold text-secondary sm:text-5xl md:text-6xl lg:text-7xl"
         transition:name="batalla-ttl"
       >
         La Batalla
       </h2>
       <a
         href="/"
-        class="hidden items-center justify-between gap-x-2 text-secondary transition hover:scale-110 md:flex"
+        class="hidden sm:flex items-center justify-between gap-x-2 text-secondary transition hover:scale-110"
       >
         <ArrowLeft class="h-3 w-3" />
         Volver
@@ -59,7 +58,7 @@ import Layout from "@layouts/Layout.astro";
         transition:name="batalla-img"
         src="/batalla.webp"
         alt="Imagen de la batalla"
-        class="mb-4 h-auto w-max"
+        class="mb-4 w-full max-w-xs object-contain"
       />
       <Button
         href="/ver-mas/la-batalla"
@@ -70,12 +69,11 @@ import Layout from "@layouts/Layout.astro";
         <ArrowRight class="h-4 w-4 md:h-6 md:w-6" />
       </Button>
     </section>
-
     <section
-      class="flex h-full flex-col items-center justify-between bg-secondary p-6 text-center"
+      class="flex flex-col items-center justify-between bg-secondary p-4 text-center h-full"
     >
       <h2
-        class="mb-4 text-6xl font-bold text-primary md:text-8xl"
+        class="mb-4 text-4xl font-bold text-primary sm:text-5xl md:text-5xl lg:text-6xl"
         transition:name="bandeirantes-ttl"
       >
         Bandeirantes
@@ -84,7 +82,7 @@ import Layout from "@layouts/Layout.astro";
         transition:name="bandeirantes-img"
         src="/bandeirantes.webp"
         alt="Imagen de los Bandeirantes"
-        class="mb-4 h-auto w-max"
+        class="mb-4 w-full max-w-xs object-contain"
       />
       <Button
         href="/ver-mas/bandeirantes"
