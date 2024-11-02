@@ -8,7 +8,7 @@ import Layout from "@layouts/Layout.astro";
 <Layout title="Ver más | Batalla de Mborore">
   <main class="grid h-screen grid-cols-1 sm:grid-cols-3">
     <section
-      class="flex flex-col items-center justify-between bg-secondary p-4 text-center h-full"
+      class="flex h-full flex-col items-center justify-between bg-secondary p-4 text-center"
     >
       <h2
         transition:name="guaranies-jesuitas-ttl"
@@ -18,7 +18,7 @@ import Layout from "@layouts/Layout.astro";
       </h2>
       <a
         href="/"
-        class="flex items-center justify-between gap-x-2 text-primary transition hover:scale-110 sm:hidden"
+        class="sm:hidden mb-2 me-2 flex items-center gap-2 rounded-full border-2 border-primary bg-secondary px-5 py-2 text-sm font-medium text-primary hover:bg-gray-300 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
       >
         <ArrowLeft class="h-3 w-3" />
         Volver
@@ -39,7 +39,7 @@ import Layout from "@layouts/Layout.astro";
       </Button>
     </section>
     <section
-      class="flex flex-col items-center justify-between bg-primary p-4 text-center h-full"
+      class="flex h-full flex-col items-center justify-between bg-primary p-4 text-center"
     >
       <h2
         class="mb-4 text-4xl font-bold text-secondary sm:text-5xl md:text-6xl lg:text-7xl"
@@ -49,9 +49,9 @@ import Layout from "@layouts/Layout.astro";
       </h2>
       <a
         href="/"
-        class="hidden sm:flex items-center justify-between gap-x-2 text-secondary transition hover:scale-110"
-      >
-        <ArrowLeft class="h-3 w-3" />
+        class="hidden mb-2 me-2 items-center gap-2 rounded-full border-2 border-secondary bg-primary px-5 py-2 text-sm font-medium text-white hover:bg-tertiary focus:outline-none focus:ring-1 focus:ring-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 md:flex"
+        >
+        <ArrowLeft class="h-4 w-4" />
         Volver
       </a>
       <img
@@ -70,7 +70,7 @@ import Layout from "@layouts/Layout.astro";
       </Button>
     </section>
     <section
-      class="flex flex-col items-center justify-between bg-secondary p-4 text-center h-full"
+      class="flex h-full flex-col items-center justify-between bg-secondary p-4 text-center"
     >
       <h2
         class="mb-4 text-4xl font-bold text-primary sm:text-5xl md:text-5xl lg:text-6xl"
