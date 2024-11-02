@@ -1,6 +1,6 @@
 ---
 import Card from '@components/ui/Card.astro';
-import { teamMembers } from '../../../data/teamData.js';
+import { TEAM_MEMBERS } from '../../../data/teamData.js';
 ---
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ import { teamMembers } from '../../../data/teamData.js';
 
   <!-- Contenedor de las tarjetas -->
   <div class="cards-container">
-    {teamMembers.map(member => (
+    {TEAM_MEMBERS.map(member => (
       <Card
         name={member.name}
         role={member.role}
