@@ -1,0 +1,62 @@
+---
+const { name, role, imageUrl, instagramUrl, linkedinUrl, githubUrl } = Astro.props;
+---
+
+<div class="card">
+  <img src={imageUrl} alt={`Foto de ${name}`} />
+  <h2>{name}</h2>
+  <p>{role}</p>
+  <div class="social-icons">
+    {instagramUrl && <a href={instagramUrl} target="_blank">📸</a>}
+    {linkedinUrl && <a href={linkedinUrl} target="_blank">🔗</a>}
+    {githubUrl && <a href={githubUrl} target="_blank">🐙</a>}
+  </div>
+</div>
+
+<style>
+  .card {
+    background-color: #F3F0E6;
+    border: 2px solid #62060F;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox para centrar contenido */
+    flex-direction: column; /* Alineación en columna */
+    align-items: center; /* Centrar elementos en el eje transversal */
+    justify-content: center;
+  }
+
+  .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+    color: #62060F;
+    margin: 10px 0 5px;
+  }
+
+  .card p {
+    color: #333;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+    display: flex; /* Asegúrate de que los íconos se alineen correctamente */
+    justify-content: center;
+  }
+
+  .social-icons a {
+    color: #62060F;
+    font-size: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+</style>

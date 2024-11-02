@@ -1,0 +1,62 @@
+---
+// Importa el componente de tarjeta desde la carpeta "card"
+import Card from 'src/components/ui/card/index.astro';
+// Importa los datos de los miembros del equipo desde "responsables/data/teamData.js"
+import { teamMembers } from '../../../data/teamData.js';
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsables del Proyecto</title>
+</head>
+<body>
+
+  <h1>Responsables del Proyecto</h1>
+
+  <!-- Contenedor de las tarjetas -->
+  <div class="cards-container">
+    {teamMembers.map(member => (
+      <Card
+        name={member.name}
+        role={member.role}
+        imageUrl={member.imageUrl}
+        instagramUrl={member.instagramUrl}
+        linkedinUrl={member.linkedinUrl}
+        githubUrl={member.githubUrl}
+      />
+    ))}
+  </div>
+
+  <style>
+    body {
+      background-color: #DBD8C8;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      color: #62060F;
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 1200px;
+    }
+  </style>
+
+</body>
+</html>
+
