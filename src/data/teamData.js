@@ -60,9 +60,9 @@ export const TEAM_MEMBERS = [
     name: "Arnaldo Fabian Borda Martinez",
     role: "Desarrollador Web",
     imageUrl: "/responsables/avatar.webp",
-    instagramUrl: "https://www.instagram.com/lucascodev",
-    linkedinUrl: "https://www.linkedin.com/in/lucascodev/",
-    githubUrl: "https://github.com/isaias-alt/",
+    instagramUrl: "https://www.instagram.com/arnaldo_b001/",
+    linkedinUrl: "https://www.linkedin.com/in/aborda001/",
+    githubUrl: "",
   },
 
   {
@@ -134,7 +134,7 @@ export const TEAM_MEMBERS = [
     imageUrl: "/responsables/Luis_Herrera.webp",
     instagramUrl: "https://www.instagram.com/luisahm14/profilecard/?igsh=aXZ0anltdnYwYXFv",
     linkedinUrl: "https://www.linkedin.com/in/luis-alberto-herrera-martinez-3b3937204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    githubUrl: "https://github.com/luisrap10%0A",
+    githubUrl: "https://github.com/luisrap10",
   },
 
   {
@@ -230,7 +230,7 @@ export const TEAM_MEMBERS = [
   {
     name: "Lina Vega",
     role: "Localización Geográfica",
-    imageUrl: "/responsables/avatar.webp",
+    imageUrl: "/responsables/lina.webp",
     instagramUrl: "https://www.instagram.com/linavega_m/?hl=es",
     linkedinUrl: "",
     githubUrl: "",
@@ -242,6 +242,33 @@ export const TEAM_MEMBERS = [
     imageUrl: "/responsables/Rocio_Romero.webp",
     instagramUrl: "https://www.instagram.com/rociorom_",
     linkedinUrl: "https://www.linkedin.com/in/rocio-romero-3184a2249",
+    githubUrl: "",
+  },
+
+  {
+    name: "Eleno Alberto Coronel Godoy",
+    role: "Desarrollador Web - Actor de Voz",
+    imageUrl: "/responsables/eleno.webp",
+    instagramUrl: "https://www.instagram.com/elenocoronel",
+    linkedinUrl: "",
+    githubUrl: "",
+  },
+
+  {
+    name: "Rolando Ramos",
+    role: "Traducción",
+    imageUrl: "/responsables/rolando.webp",
+    instagramUrl: "https://www.instagram.com/rolyramos.dev/profilecard/?igsh=MThqYjVtem10dHY3Ng==",
+    linkedinUrl: "https://www.linkedin.com/in/roly-ramos-151a6a1a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    githubUrl: "https://github.com/RolandoRamos7",
+  },
+
+  {
+    name: "Lourdes Caballero Colmán",
+    role: "Traducción",
+    imageUrl: "/responsables/lourdes.webp",
+    instagramUrl: "https://www.instagram.com/loucab1/",
+    linkedinUrl: "",
     githubUrl: "",
   },
   // agrega más miembros aquí
