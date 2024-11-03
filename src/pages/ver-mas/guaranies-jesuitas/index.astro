@@ -1,57 +1,63 @@
 ---
 import Layout from "@layouts/Layout.astro";
+import Footer from "@ui/Footer.astro";
 ---
 
 <Layout title="Guaraníes y Jesuitas | Batalla de Mbororé">
   <main>
-
-    <div class="absolute left-0 top-0 w-full text-center">
-    <div class="absolute left-0 top-0 w-full text-center p-4 md:p-8">
-
+    <div class="absolute left-0 top-0 w-full p-4 text-center md:p-8">
       <h2
         transition:name="guaranies-jesuitas-ttl"
-        class="text-4xl font-bold tracking-wide text-primary sm:text-5xl md:text-6xl lg:text-8xl"
+        class="text-5xl font-bold tracking-wide text-primary sm:text-5xl md:text-6xl lg:text-8xl"
       >
         Guaraníes <span class="text-primary md:text-secondary">y Jesuitas</span>
       </h2>
     </div>
 
-
-    <div class="flex min-h-screen w-full flex-col md:flex-row">
+    <div
+      class="flex min-h-screen w-full flex-col border-b-2 border-secondary md:flex-row"
+    >
       <div
         class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
       >
         <div class="mt-24">
-          <p class="font-regular m-4 text-lg text-black md:text-4xl">
-    <div class="flex min-h-screen flex-col md:flex-row">
-      <div class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2">
-        <div class="mt-24 max-w-md md:max-w-lg lg:max-w-xl">
-          <p class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl">
-            Aproximadamente 800 años antes del descubrimiento de América, un
-            pueblo que pertenecía a un tronco lingüístico, al que llamaremos
-            guaraní, fue llegando a las regiones de Brasil y Paraguay. En el
-            caso de nuestro país, ocuparon los territorios que anteriormente
-            pertenecían a un grupo étnico llamado <span
-              class="font-bold text-primary">Kaingang Ge</span
-            >.
-          </p>
-          <p class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl">
-            Ambas etnias se encontraron en un desarrollo cultural perteneciente
-            al <span class="font-bold text-primary">Paleolítico</span>, es
-            decir, en lo que llamaríamos <span class="font-bold text-primary"
-              >Protohistoria</span
-            >, un estado de desarrollo propio de la prehistoria, pero aún
-            presente en plena Edad Moderna.
-          </p>
+          <div class="font-regular m-4 text-lg text-black md:text-4xl">
+            <p
+              class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl"
+            >
+              Aproximadamente 800 años antes del descubrimiento de América, un
+              pueblo que pertenecía a un tronco lingüístico, al que llamaremos
+              guaraní, fue llegando a las regiones de Brasil y Paraguay. En el
+              caso de nuestro país, ocuparon los territorios que anteriormente
+              pertenecían a un grupo étnico llamado <span
+                class="font-bold text-primary">Kaingang Ge</span
+              >.
+            </p>
+            <p
+              class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl"
+            >
+              Ambas etnias se encontraron en un desarrollo cultural
+              perteneciente al <span class="font-bold text-primary"
+                >Paleolítico</span
+              >, es decir, en lo que llamaríamos <span
+                class="font-bold text-primary">Protohistoria</span
+              >, un estado de desarrollo propio de la prehistoria, pero aún
+              presente en plena Edad Moderna.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2">
-        <img
-          transition:name="guaranies-jesuitas-img"
-          src="/guarani-jesuita.webp"
-          alt="Imagen de los Guaraníes y Jesuitas"
-          class="mb-4 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain"
-        />
+
+      <div
+        class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
+      >
+        <div class="md:mt-40">
+          <img
+            src="/guarani-jesuita.webp"
+            alt="Imagen de los Guaraníes y Jesuitas"
+            class="mb-4 w-full max-w-xs object-contain sm:max-w-sm md:max-w-md lg:max-w-lg"
+          />
+        </div>
       </div>
     </div>
 
@@ -62,7 +68,6 @@ import Layout from "@layouts/Layout.astro";
         class="flex w-full flex-col items-center justify-center bg-primary p-6 md:w-1/2"
       >
         <img
-          transition:name="guaranies-jesuitas-img"
           src="/monumento-santa-rosa.png"
           alt="Imagen del monumento de Santa Rosa"
           class="mb-4 h-auto w-[550px]"
@@ -94,7 +99,9 @@ import Layout from "@layouts/Layout.astro";
       </div>
     </div>
 
-    <div class="flex min-h-screen w-full flex-col md:flex-row">
+    <div
+      class="flex min-h-screen w-full flex-col border-b-2 border-secondary md:flex-row"
+    >
       <div
         class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
       >
@@ -128,7 +135,6 @@ import Layout from "@layouts/Layout.astro";
         class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
       >
         <img
-          transition:name="guaranies-jesuitas-img"
           src="/misiones-jesuitas-1.png"
           alt="Imagen de la distribucion de los Jesuitas."
           class="mb-4 h-auto w-[550px]"
@@ -141,7 +147,6 @@ import Layout from "@layouts/Layout.astro";
         class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
       >
         <img
-          transition:name="guaranies-jesuitas-img"
           src="/reduccion-candelaria.png"
           alt="Imagen de la Reduccion de la Candelaria"
           class="mb-4 h-auto w-[550px]"
@@ -161,9 +166,11 @@ import Layout from "@layouts/Layout.astro";
             class="font-regular m-4 mt-10 text-lg text-black md:mt-24 md:text-4xl"
           >
             Las reducciones fueron organizadas siguiendo un modelo de
-            <span class="font-bold text-primary">sostenibilidad</span> basado en
-            la producción agrícola y ganadera, con un énfasis particular en la producción
-            de <span class="font-bold text-primary">yerba mate.</span>
+            <span class="font-bold text-primary">sostenibilidad</span>
+            basado en la producción agrícola y ganadera, con un énfasis particular
+            en la producción de <span class="font-bold text-primary"
+              >yerba mate.</span
+            >
           </p>
           <ul class="font-regular m-4 list-disc text-lg text-black md:text-4xl">
             La producción se divide en tres partes:
@@ -333,5 +340,5 @@ import Layout from "@layouts/Layout.astro";
       </div>
     </div>
   </main>
+  <Footer />
 </Layout>
-
