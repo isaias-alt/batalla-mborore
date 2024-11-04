@@ -1,28 +1,43 @@
 ---
 import ArrowDiagonal from "@icons/ArrowDiagonal.astro";
+import ArrowLeft from "@icons/ArrowLeft.astro";
 ---
 
 <footer class="bg-black py-8 text-secondary">
   <div class="mx-auto mt-3 max-w-screen-lg px-4 text-center">
-    <h2 class="text-4xl font-bold leading-[43px]">
+    <!-- Botón para volver a la página "ver más" en la esquina superior izquierda -->
+    <div class="text-left mb-4">
+        <a 
+            href="/ver-mas" 
+            class="text-xl inline-flex items-center gap-x-1 py-2 text-secondary transition hover:scale-110"
+        >
+            <ArrowLeft class="h-4 w-4" />
+            Volver a ver más
+        </a>
+    </div>
+    <h2 class="text-[36px] font-bold leading-[43px]">
       REFERENCIAS BIBLIOGRÁFICAS:
     </h2>
     <p class="text-[32px] leading-[43px]">
-      M'BORORÉ - A BATALHA José Roberto De Oliveira <br />
-      Lic. Carlos H. Bedoya Guillén
+      Lic. Carlos H. Bedoya Guillén <br />
+      M'BORORÉ - A BATALHA José Roberto De Oliveira
     </p>
     <div class="my-6">
       <img
         src="/estrella.svg"
         alt="Estrella Universidad Católica"
         class="mx-auto"
+        style="width: 139px; height: 135.11px;"
       />
     </div>
-    <p class="mt-6 text-2xl font-light leading-7">
+    <p class="mt-6 text-[24px] font-light leading-[29px]">
       Copyright © Todos los derechos reservados | 2024 <br />
-      <a href="#" class="inline-flex items-center hover:underline">
+      <a
+        href="/ver-mas/responsables"
+        class="inline-flex items-center hover:underline"
+      >
         5° Ingeniería Informática
-        <ArrowDiagonal />
+        <ArrowDiagonal class="size-4" />
       </a><br />
       Universidad Católica Unidad Pedagógica San Ignacio Guazú
     </p>

@@ -1,0 +1,25 @@
+---
+import Github from "@icons/Github.astro";
+import Instagram from "@icons/Instagram.astro";
+import Linkedin from "@icons/Linkedin.astro";
+
+const { name, role, imageUrl, instagramUrl, linkedinUrl, githubUrl } = Astro.props;
+---
+
+<div class="card bg-transparent border-2 border-primary rounded-lg p-5 text-center shadow-md flex flex-col items-center justify-center hover:scale-105 transition">
+  <img src={imageUrl} alt={`Foto de ${name}`} class="w-[100px] h-[100px] rounded-full object-cover mb-4" />
+  <h2 class="text-lg text-primary mt-2.5 mb-[5px]">{name}</h2>
+  <p class="text-gray-700 text-sm mb-1">{role}</p>
+  <div class="social-icons mt-2 flex justify-center">
+    {instagramUrl && <a href={instagramUrl} target="_blank" class="text-primary text-xl mx-1 hover:scale-105 transition">
+      <Instagram />
+    </a>}
+    {linkedinUrl && <a href={linkedinUrl} target="_blank" class="text-primary text-xl mx-1 hover:scale-105 transition">
+      <Linkedin />
+    </a>}
+    {githubUrl && <a href={githubUrl} target="_blank" class="text-primary text-xl mx-1 hover:scale-105 transition">
+      <Github />
+    </a>}
+  </div>
+</div>
+
