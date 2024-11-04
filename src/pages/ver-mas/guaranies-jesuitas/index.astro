@@ -1,4 +1,6 @@
 ---
+import Button from "@components/ui/Button.astro";
+import GalleryIcon from "@icons/GalleryIcon.astro";
 import Layout from "@layouts/Layout.astro";
 import Footer from "@ui/Footer.astro";
 ---
@@ -159,7 +161,7 @@ import Footer from "@ui/Footer.astro";
         <div
           class="mt-10 flex h-[100%] w-full flex-col items-center justify-start md:mt-24"
         >
-          <h1 class="text-center text-5xl font-bold text-primary md:text-6xl">
+          <h1 class="text-center text-3xl font-bold text-primary md:text-6xl">
             ORGANIZACIÓN SOCIAL
           </h1>
           <p
@@ -338,6 +340,23 @@ import Footer from "@ui/Footer.astro";
           </p>
         </div>
       </div>
+    </div>
+    <div
+      class="flex flex-col items-center justify-center border-t-2 border-primary bg-secondary p-8 text-center"
+    >
+      <h1 class="mb-6 max-w-2xl text-3xl font-bold text-primary md:text-4xl">
+        Museo Diocesano de Arte Jesuítico
+        <br />
+        San Ignacio Guazú
+      </h1>
+      <Button
+        href="/ver-mas/guaranies-jesuitas/galeria"
+        label="Ver más"
+        bgColor="primary"
+        textColor="secondary"
+      >
+        <GalleryIcon class="size-6" />
+      </Button>
     </div>
   </main>
   <Footer />
