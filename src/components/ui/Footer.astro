@@ -1,9 +1,20 @@
 ---
 import ArrowDiagonal from "@icons/ArrowDiagonal.astro";
+import ArrowLeft from "@icons/ArrowLeft.astro";
 ---
 
 <footer class="bg-black py-8 text-secondary">
   <div class="mx-auto mt-3 max-w-screen-lg px-4 text-center">
+    <!-- Botón para volver a la página "ver más" en la esquina superior izquierda -->
+    <div class="text-left mb-4">
+        <a 
+            href="/ver-mas" 
+            class="text-xl inline-flex items-center gap-x-1 py-2 text-secondary transition hover:scale-110"
+        >
+            <ArrowLeft class="h-4 w-4" />
+            Volver a ver más
+        </a>
+    </div>
     <h2 class="text-[36px] font-bold leading-[43px]">
       REFERENCIAS BIBLIOGRÁFICAS:
     </h2>
