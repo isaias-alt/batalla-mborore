@@ -1,5 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
+import Footer from "@ui/Footer.astro";
 ---
 
 <Layout title="Guaraníes y Jesuitas | Batalla de Mbororé">
@@ -7,50 +8,337 @@ import Layout from "@layouts/Layout.astro";
     <div class="absolute left-0 top-0 w-full p-4 text-center md:p-8">
       <h2
         transition:name="guaranies-jesuitas-ttl"
-        class="text-4xl font-bold tracking-wide text-primary sm:text-5xl md:text-6xl lg:text-8xl"
+        class="text-5xl font-bold tracking-wide text-primary sm:text-5xl md:text-6xl lg:text-8xl"
       >
         Guaraníes <span class="text-primary md:text-secondary">y Jesuitas</span>
       </h2>
     </div>
 
-    <div class="flex min-h-screen flex-col md:flex-row">
+    <div
+      class="flex min-h-screen w-full flex-col border-b-2 border-secondary md:flex-row"
+    >
       <div
         class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
       >
-        <div class="mt-24 max-w-md md:max-w-lg lg:max-w-xl">
-          <p
-            class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl"
-          >
-            Aproximadamente 800 años antes del descubrimiento de América, un
-            pueblo que pertenecía a un tronco lingüístico, al que llamaremos
-            guaraní, fue llegando a las regiones de Brasil y Paraguay. En el
-            caso de nuestro país, ocuparon los territorios que anteriormente
-            pertenecían a un grupo étnico llamado <span
-              class="font-bold text-primary">Kaingang Ge</span
-            >.
-          </p>
-          <p
-            class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl"
-          >
-            Ambas etnias se encontraron en un desarrollo cultural perteneciente
-            al <span class="font-bold text-primary">Paleolítico</span>, es
-            decir, en lo que llamaríamos <span class="font-bold text-primary"
-              >Protohistoria</span
-            >, un estado de desarrollo propio de la prehistoria, pero aún
-            presente en plena Edad Moderna.
+        <div class="mt-24">
+          <div class="font-regular m-4 text-lg text-black md:text-4xl">
+            <p
+              class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl"
+            >
+              Aproximadamente 800 años antes del descubrimiento de América, un
+              pueblo que pertenecía a un tronco lingüístico, al que llamaremos
+              guaraní, fue llegando a las regiones de Brasil y Paraguay. En el
+              caso de nuestro país, ocuparon los territorios que anteriormente
+              pertenecían a un grupo étnico llamado <span
+                class="font-bold text-primary">Kaingang Ge</span
+              >.
+            </p>
+            <p
+              class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl"
+            >
+              Ambas etnias se encontraron en un desarrollo cultural
+              perteneciente al <span class="font-bold text-primary"
+                >Paleolítico</span
+              >, es decir, en lo que llamaríamos <span
+                class="font-bold text-primary">Protohistoria</span
+              >, un estado de desarrollo propio de la prehistoria, pero aún
+              presente en plena Edad Moderna.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
+      >
+        <div class="md:mt-40">
+          <img
+            src="/guarani-jesuita.webp"
+            alt="Imagen de los Guaraníes y Jesuitas"
+            class="mb-4 w-full max-w-xs object-contain sm:max-w-sm md:max-w-md lg:max-w-lg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex min-h-screen w-full flex-col border-b-2 border-primary md:flex-row"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-center bg-primary p-6 md:w-1/2"
+      >
+        <img
+          src="/monumento-santa-rosa.png"
+          alt="Imagen del monumento de Santa Rosa"
+          class="mb-4 h-auto w-[550px]"
+        />
+        <p class="text-sm text-white md:text-xl">
+          (Monumento en Santa Rosa Misiones, que representa la entrada de las
+          hachas de metal a una civilización que aún se encontraba en la Edad de
+          Piedra)
+        </p>
+      </div>
+      <div
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
+      >
+        <div class="mt-8 md:mt-24">
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            Cuando los jesuitas <span class="font-bold text-primary"
+              >Marcial de Lorenzana</span
+            > y <span class="font-bold text-primary"
+              >Francisco de San Martín</span
+            >
+            llegaron a estas tierras en el año <span
+              class="font-bold text-primary">1609</span
+            >, trajeron tecnología propia de la época, como el manejo del hierro
+            y los metales, además de conocimientos europeos avanzados.
+            Contribuyeron así a concretar la transición de un pueblo que estaba
+            en la Edad de Piedra hacia la Edad Moderna, en un instante.
           </p>
         </div>
       </div>
+    </div>
+
+    <div
+      class="flex min-h-screen w-full flex-col border-b-2 border-secondary md:flex-row"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
+      >
+        <div
+          class="mt-10 flex h-[100%] flex-col items-center justify-start md:mt-24"
+        >
+          <h1 class="text-center text-4xl font-bold text-primary md:text-6xl">
+            FUNDACIÓN DE LAS MISIONES JESUÍTICAS
+          </h1>
+          <p
+            class="font-regular m-4 mt-10 text-lg text-black md:mt-24 md:text-4xl"
+          >
+            La llegada de los misioneros jesuitas al territorio que más tarde
+            sería conocida como las Misiones Jesuíticas comenzó con la fundación
+            de <span class="font-bold text-primary">San Ignacio Guazú</span> en <span
+              class="font-bold text-primary">1609</span
+            >. Las reducciones jesuíticas se destacaron por ser un modelo de
+            organización social, económica, urbanística y arquitectónica.
+          </p>
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            Estos asentamientos pueden considerarse como los <span
+              class="font-bold text-primary"
+              >primeros pueblos urbanos planificados</span
+            > de la región, algo que contrastaba con la falta de planificación de
+            otras localidades.
+          </p>
+        </div>
+      </div>
+
       <div
         class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
       >
         <img
-          transition:name="guaranies-jesuitas-img"
-          src="/guarani-jesuita.webp"
-          alt="Imagen de los Guaraníes y Jesuitas"
-          class="mb-4 w-full max-w-xs object-contain sm:max-w-sm md:max-w-md lg:max-w-lg"
+          src="/misiones-jesuitas-1.png"
+          alt="Imagen de la distribucion de los Jesuitas."
+          class="mb-4 h-auto w-[550px]"
         />
       </div>
     </div>
+
+    <div class="flex min-h-screen w-full flex-col md:flex-row">
+      <div
+        class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
+      >
+        <img
+          src="/reduccion-candelaria.png"
+          alt="Imagen de la Reduccion de la Candelaria"
+          class="mb-4 h-auto w-[550px]"
+        />
+      </div>
+
+      <div
+        class="flex w-full flex-col items-center justify-center border-b-2 border-primary bg-secondary p-6 md:w-1/2"
+      >
+        <div
+          class="mt-10 flex h-[100%] w-full flex-col items-center justify-start md:mt-24"
+        >
+          <h1 class="text-center text-5xl font-bold text-primary md:text-6xl">
+            ORGANIZACIÓN SOCIAL
+          </h1>
+          <p
+            class="font-regular m-4 mt-10 text-lg text-black md:mt-24 md:text-4xl"
+          >
+            Las reducciones fueron organizadas siguiendo un modelo de
+            <span class="font-bold text-primary">sostenibilidad</span>
+            basado en la producción agrícola y ganadera, con un énfasis particular
+            en la producción de <span class="font-bold text-primary"
+              >yerba mate.</span
+            >
+          </p>
+          <ul class="font-regular m-4 list-disc text-lg text-black md:text-4xl">
+            La producción se divide en tres partes:
+            <li class="list-inside pl-8 font-bold text-primary">
+              Tupã Mba'e: <span class="font-light text-black"
+                >destinada al culto religioso.</span
+              >
+            </li>
+            <li class="list-inside pl-8 font-bold text-primary">
+              Tupã Mba'e: <span class="font-light text-black"
+                >destinada a la propiedad privada y el sustento de las familias.</span
+              >
+            </li>
+            <li class="list-inside pl-8 font-bold text-primary">
+              Táva Mba'e: <span class="font-light text-black"
+                >dedicada al mantenimiento de la ciudad y obras públicas.</span
+              >
+            </li>
+          </ul>
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            En términos modernos, las reducciones jesuíticas también tenían un
+            sistema equivalente a la <span class="font-bold text-primary"
+              >seguridad social</span
+            >, ya que parte de los recursos se destinaban al cuidado de viudas y
+            huérfanos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex min-h-screen w-full flex-col border-b-2 border-secondary md:flex-row"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
+      >
+        <div
+          class="mt-10 flex h-[100%] flex-col items-center justify-start md:mt-24"
+        >
+          <h1 class="text-center text-5xl font-bold text-primary md:text-6xl">
+            LA EDUCACIÓN
+          </h1>
+
+          <p
+            class="font-regular m-4 mt-10 text-lg text-black md:mt-24 md:text-4xl"
+          >
+            San Ignacio Guazú, fundada en <span class="font-bold text-primary"
+              >1609</span
+            >, tuvo una <span class="font-bold text-primary">escuela</span> ya en
+            1621, con clases separadas para varones y mujeres, además de talleres
+            de artes y oficios.
+          </p>
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            La educación en las reducciones alcanzó un nivel superior al que
+            recibían los criollos y españoles en las ciudades capitales, lo que
+            fue la base para producir mano de obra calificada que luego se
+            encargaría de los talleres las construcciones arquitectónicas los
+            observatorios astronómicos, etc.
+          </p>
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            Esto se evidencia en las obras de escritores guaraníes como <span
+              class="font-bold text-primary">Nicolás Yapygay</span
+            > o el compositor y maestro de Capilla <span
+              class="font-bold text-primary">Julián Atyraju</span
+            >, quienes se destacaron en sus campos.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="flex w-full flex-col items-center justify-center bg-primary p-6 md:w-1/2"
+      >
+        <div
+          class="mt-10 flex h-[100%] flex-col items-center justify-start md:mt-24"
+        >
+          <h1 class="text-5xl font-bold text-secondary md:text-6xl">
+            LAS ARTES
+          </h1>
+          <p
+            class="font-regular m-4 mt-10 text-lg text-secondary md:mt-24 md:text-4xl"
+          >
+            Aunque los jesuitas no vinieron con el propósito de desarrollar
+            carreras artísticas, algunos como el hermano <span class="font-bold"
+              >José Brasanelli</span
+            > y el muy recordado <span class="font-bold">Domenico Zipoli</span> fomentaron
+            la producción de arte en
+            <span class="font-bold">escultura y pintura</span>. Arquitectos de
+            renombre, como <span class="font-bold">Petragrassa</span>, también
+            dejaron su huella en la formación de las misiones.
+          </p>
+          <p class="font-regular m-4 text-lg text-secondary md:text-4xl">
+            Es lógico suponer que los maestros jesuitas formaron talleres para
+            capacitar a los indígenas, quienes luego se encargaron de la
+            producción masiva de esculturas, construcciones arquitectónicas y
+            observatorios astronómicos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex min-h-screen w-full flex-col md:flex-row">
+      <div
+        class="flex w-full flex-col items-center justify-center bg-primary p-6 md:w-1/2"
+      >
+        <div
+          class="mt-10 flex h-[100%] flex-col items-center justify-start md:mt-24"
+        >
+          <h1 class="text-center text-4xl font-bold text-secondary md:text-6xl">
+            LA EVANGELIZACIÓN
+          </h1>
+          <p
+            class="font-regular m-4 mt-10 text-lg text-secondary md:mt-64 md:text-4xl"
+          >
+            El motivo final de toda esta experiencia que duró 160 años fue la
+            evangelización de los pueblos, la compañía de Jesús fue creada para
+            eso y actuaba. De igual forma en otras misiones que se encontraban
+            funcionando al mismo tiempo en <span class="font-bold"
+              >Japón en África en China o en la India.</span
+            > Todo lo que se hacía seguía el lema jesuita: <span
+              class="font-bold">“Ad Majorem Dei Gloriam”</span
+            >
+            (Para Mayor Gloria de Dios).
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
+      >
+        <div
+          class="mt-10 flex h-[100%] flex-col items-center justify-start md:mt-24"
+        >
+          <h1 class="text-center text-5xl font-bold text-primary md:text-6xl">
+            LA EXPULSIÓN
+          </h1>
+          <p
+            class="font-regular m-4 mt-10 text-lg text-black md:mt-24 md:text-4xl"
+          >
+            Tras <span class="font-bold text-primary">160 años</span> de haber creado
+            las reducciones de <span class="font-bold text-primary"
+              >Paraqvaria</span
+            >, la Compañía de Jesús fue expulsada de todos los territorios
+            católicos. La orden fue suspendida, y sus integrantes ya no podían
+            formar nuevos sacerdotes. Sin embargo, algunos jesuitas fueron
+            acogidos por líderes como <span class="font-bold text-primary"
+              >Federico el Grande de Prusia</span
+            > y
+            <span class="font-bold text-primary"
+              >Catalina la Grande de Rusia</span
+            >, quienes aprovecharon su formación para desarrollar grandes
+            universidades, algunas de las cuales perduran hasta hoy.
+          </p>
+          <p class="font-regular m-4 text-lg text-black md:text-4xl">
+            Después de la expulsión, las reducciones fueron entregadas a otras
+            órdenes religiosas, pero estas no lograron mantener el sistema
+            original. Los colonizadores españoles intentaron aplicar el sistema
+            de encomiendas, repartiendo las tierras y poblaciones para su
+            servicio personal. Sin embargo, la alta formación técnica y
+            profesional de los indígenas dificultó este proceso. Muchos
+            abandonaron las reducciones y se integraron a las poblaciones
+            coloniales de <span class="font-bold text-primary">Paraguay</span>
+            y
+            <span class="font-bold text-primary">Argentina</span>, donde fueron
+            bien recibidos.
+          </p>
+        </div>
+      </div>
+    </div>
   </main>
+  <Footer />
 </Layout>
