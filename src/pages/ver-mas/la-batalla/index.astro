@@ -3,12 +3,12 @@ import Footer from "@components/ui/Footer.astro";
 import Layout from "@layouts/Layout.astro";
 ---
 
-<Layout title="Las Batallas de Mbororé | Batalla de Mborore">
+<Layout title="Las Batallas de moborore | Batalla de Mborore">
   <main>
-    <div class="b-8 absolute left-0 top-0 w-full text-center">
+    <div class="absolute left-0 top-0 w-full p-4 text-center md:p-8">
       <h2
-        class="text-5xl font-bold tracking-wide text-primary sm:text-5xl md:text-6xl lg:text-8xl"
         transition:name="batalla-ttl"
+        class="text-5xl font-bold tracking-wide text-primary sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl"
       >
         Guar<span class="text-primary md:text-secondary">aníes</span>
         <br />
@@ -18,36 +18,30 @@ import Layout from "@layouts/Layout.astro";
       </h2>
     </div>
 
-    <div class="flex min-h-screen flex-col md:flex-row">
+    <div
+      class="flex min-h-screen w-full flex-col border-b-2 border-secondary md:flex-row"
+    >
       <div
-        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6"
       >
         <div class="mt-24">
           <div class="font-regular m-4 text-lg text-black md:text-4xl">
-            <br />
             <p
-              class="m-4 text-base text-black sm:text-lg md:text-2xl lg:text-3xl"
+              class="m-4 text-base text-black sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
             >
               En el siglo XVII, los <span class="font-bold text-primary"
                 >bandeirante paulistas</span
               > de São Paulo, Brasil, realizaron incursiones violentas contra las
               <span class="font-bold text-primary">Misiones jesuíticas</span> en
               el Guayrá, Itatín y Tapé, con el objetivo de capturar a los guaraníes
-              y venderlos como esclavos. Estas incursiones devastaron pueblos enteros,
-              obligando a miles de guaraníes a huir, como el éxodo liderado por el
-              jesuita <span class="font-bold text-primary"
-                >Antonio Ruíz de Montoya</span
-              > , que condujo a 12,000 guaraníes a través del río Paraná para escapar
-              de la esclavitud.
+              y venderlos como esclavos...
             </p>
           </div>
         </div>
       </div>
 
-      <div
-        class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
-      >
-        <div class="md:mt-80">
+      <div class="flex w-full items-center justify-center bg-primary p-6">
+        <div>
           <img
             src="/batalla.webp"
             transition:name="batalla-img"
@@ -62,16 +56,16 @@ import Layout from "@layouts/Layout.astro";
       class="flex min-h-screen w-full flex-col border-b-2 border-primary md:flex-row"
     >
       <div
-        class="flex w-full flex-col items-center justify-center bg-primary p-6 md:w-1/2"
+        class="flex w-full flex-col items-center justify-center bg-primary p-6"
       >
         <img
           src="/public/batalla.webp"
-          alt="Imagen de una batalla entre guaraníes y bandeirantes"
-          class="mb-4 h-auto w-[550px]"
+          alt="Imagen de guaranies y bandeirantes"
+          class="mb-4 h-auto w-64 sm:w-80 md:w-96 lg:w-[550px]"
         />
       </div>
       <div
-        class="flex w-full flex-col items-center justify-center bg-secondary p-6 md:w-1/2"
+        class="flex w-full flex-col items-center justify-center bg-secondary p-6"
       >
         <div class="mt-8 md:mt-36">
           <h1 class="text-center text-5xl font-bold text-primary md:text-4xl">
@@ -109,7 +103,6 @@ import Layout from "@layouts/Layout.astro";
             </p>
           </h1>
         </div>
-
         <div
           class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
         >
@@ -120,7 +113,6 @@ import Layout from "@layouts/Layout.astro";
           />
         </div>
       </div>
-
       <div class="flex min-h-screen w-full flex-col md:flex-row">
         <div
           class="flex w-full items-center justify-center bg-primary p-6 md:w-1/2"
@@ -258,7 +250,5 @@ import Layout from "@layouts/Layout.astro";
       </div>
     </div>
   </main>
-  <footer>
-    <Footer />
-  </footer>
+  <Footer />
 </Layout>
