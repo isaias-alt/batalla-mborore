@@ -63,8 +63,8 @@ const images = [
     </h1>
 
     <a
-      href="./"
-      class="mt-4 text-2xl flex items-center gap-x-2 px-4 py-2 text-primary transition hover:scale-110"
+      href="/ver-mas"
+      class="mt-4 flex items-center gap-x-2 px-4 py-2 text-2xl text-primary transition hover:scale-110"
     >
       <ArrowLeft class="h-4 w-4" />
       Volver
@@ -82,7 +82,7 @@ const images = [
             }}
           >
             <img
-              class="h-full w-full object-cover object-top transition "
+              class="h-full w-full object-cover object-top transition"
               src={image}
               alt={`Imagen ${index + 1}`}
               loading="lazy"
@@ -100,7 +100,6 @@ const images = [
       <GaleryIcon class="h-5 w-5" />
     </button>
 
-    <!-- Agregar el componente de modal -->
     <div
       id="imageModal"
       class="fixed inset-0 z-50 flex hidden items-center justify-center bg-black bg-opacity-75"
@@ -225,7 +224,7 @@ const images = [
 
   function updateModalImage() {
     const modalImage = document.getElementById(
-      "modalImage",
+      "modalImage"
     ) as HTMLImageElement;
     if (modalImage) {
       modalImage.src = images[currentIndex];
@@ -258,12 +257,12 @@ const images = [
     if (imageGrid) {
       imageGrid.addEventListener("click", (e) => {
         const clickedImage = (e.target as HTMLElement)?.closest(
-          "div[data-index]",
+          "div[data-index]"
         );
         if (clickedImage) {
           const index = parseInt(
             clickedImage.getAttribute("data-index") || "0",
-            10,
+            10
           );
           openModal(index);
         }
