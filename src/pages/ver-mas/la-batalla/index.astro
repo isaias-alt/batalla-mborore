@@ -1,12 +1,13 @@
 ---
+import Footer from "@components/ui/Footer.astro";
 import Layout from "@layouts/Layout.astro";
 ---
 
-<Layout title="Guaraníes y Jesuitas | Batalla de Mborore">
+<Layout title="Las Batallas de Mbororé | Batalla de Mborore">
   <main>
     <div class="absolute left-0 top-0 w-full p-4 text-center md:p-8">
       <h2
-        transition:name="guaranies-jesuitas-ttl"
+        transition:name="batall-de-mborore-ttl"
         class="text-5xl font-bold tracking-wide text-primary sm:text-5xl md:text-6xl lg:text-8xl"
       >
         Guar<span class="text-primary md:text-secondary">aníes</span>
@@ -51,7 +52,7 @@ import Layout from "@layouts/Layout.astro";
         <div class="md:mt-80">
           <img
             src="/public/bandeirantes_b_w-removebg-preview.png"
-            alt="Imagen de los Guaraníes y Jesuitas"
+            alt="Imagen de bandeirantes"
             class="mb-4 w-full max-w-xs object-contain sm:max-w-sm md:max-w-md lg:max-w-lg"
           />
         </div>
@@ -66,7 +67,7 @@ import Layout from "@layouts/Layout.astro";
       >
         <img
           src="/public/batalla.webp"
-          alt="Imagen del monumento de Santa Rosa"
+          alt="Imagen de una batalla entre guaraníes y bandeirantes"
           class="mb-4 h-auto w-[550px]"
         />
       </div>
@@ -137,7 +138,7 @@ import Layout from "@layouts/Layout.astro";
       >
         <img
           src="/public/GvsB.png"
-          alt="Imagen de la distribucion de los Jesuitas."
+          alt="Imagen de un guaraní y un bandeirante en blanco y negro"
           class="mb-4 h-auto w-[550px]"
         />
       </div>
@@ -149,7 +150,7 @@ import Layout from "@layouts/Layout.astro";
       >
         <img
           src="/public/Indio-removebg-preview.png"
-          alt="Imagen de la Reduccion de la Candelaria"
+          alt="Imagen de la un guaraní en blanco y negro"
           class="mb-4 h-auto w-[550px]"
         />
       </div>
@@ -238,7 +239,7 @@ import Layout from "@layouts/Layout.astro";
         >
           <img
             src="/public/paz.jpeg"
-            alt="Imagen del monumento de Santa Rosa"
+            alt="Imagen de un ambiente de paz"
             class="mb-4 h-auto w-[550px]"
           />
           <p class="text-sm text-white md:text-xl">
@@ -250,4 +251,5 @@ import Layout from "@layouts/Layout.astro";
       </div>
     </div>
   </main>
+  <Footer />
 </Layout>
