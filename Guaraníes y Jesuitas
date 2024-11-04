@@ -1,0 +1,592 @@
+[33mcommit d8c7979c65b3b1b1068456625cfb0f4bf9ea7084[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 7fd49b3 c277eab
+Author: Abel Amarilla <107014875+Abelr09@users.noreply.github.com>
+Date:   Mon Nov 4 15:28:46 2024 -0300
+
+    Merge branch 'main' into main
+
+[33mcommit 7fd49b3341fbf002a4f3e1754a104798bb0a5584[m
+Author: Abel Amarilla <abelamarilla51777@gmail.com>
+Date:   Mon Nov 4 15:21:37 2024 -0300
+
+    Add footer
+
+[33mcommit c277eab190dc21b25f97436d57d0dc399ebd40f3[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 15:17:15 2024 -0300
+
+    add button to go to the gallery
+
+[33mcommit 906d0685cbc78941b4d1334f043c11151f23d6bf[m
+Merge: aa04512 68f2823
+Author: Abel Amarilla <abelamarilla51777@gmail.com>
+Date:   Mon Nov 4 15:08:35 2024 -0300
+
+    Merge branch 'main' of https://github.com/Abelr09/batalla-mborore
+
+[33mcommit aa0451208d2d2aa626b8b19d4372942bad69857c[m
+Author: Abel Amarilla <abelamarilla51777@gmail.com>
+Date:   Mon Nov 4 15:05:20 2024 -0300
+
+    çAdding footer
+
+[33mcommit 20bdc2d3470d5f4d980ffc3abab75b2974dec908[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 15:03:34 2024 -0300
+
+    add
+
+[33mcommit e8661e8e829b08ad1910796e5dd1e648bc80ba7d[m
+Merge: d521e12 f42b3d1
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Mon Nov 4 14:59:18 2024 -0300
+
+    Merge pull request #15 from MemoArguello/main
+    
+    responsive: titulo ajustado para pantallas pequeñas
+
+[33mcommit d521e1277299841b4c096109dbdc5045cb3e678f[m
+Merge: 38f088e 68f2823
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Mon Nov 4 14:55:47 2024 -0300
+
+    Merge pull request #14 from Abelr09/main
+    
+    New Changes
+
+[33mcommit 68f28230068ea613335752b675cbfabffaea092c[m
+Merge: ccf0122 38f088e
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Mon Nov 4 14:54:20 2024 -0300
+
+    Merge branch 'main' into main
+
+[33mcommit 38f088e5287153a012dd4a5bb3331c2b5c06334d[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 14:41:48 2024 -0300
+
+    add gallery page
+
+[33mcommit c8543b0c1cb51e3b867941bd273e4b5de3c9362a[m
+Merge: 12c064a ece8698
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Mon Nov 4 14:33:20 2024 -0300
+
+    Merge pull request #12 from CesarAlegre08/main
+    
+    Modified footer and added gallery section
+
+[33mcommit f42b3d1432e99cae4dc72558727f2cc0bd8f9d9e[m
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Mon Nov 4 13:40:23 2024 -0300
+
+    responsive: titulo ajustado para pantallas moviles
+
+[33mcommit ccf01229247add50c06c480cff72d4e646b76c40[m
+Author: Abel Amarilla <abelamarilla51777@gmail.com>
+Date:   Mon Nov 4 13:33:08 2024 -0300
+
+    New changes
+
+[33mcommit b6ad807b67ca88e621b739b5e089bf64c8d497ec[m
+Merge: 3abb27c 12c064a
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Mon Nov 4 12:49:00 2024 -0300
+
+    Merge branch 'main' of https://github.com/MemoArguello/batalla-mborore
+
+[33mcommit 3abb27c27e09d8323611a5d206569e9f504df359[m
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Mon Nov 4 12:48:39 2024 -0300
+
+    responsive: titulo ajustado para pantallas moviles
+
+[33mcommit ece869818277773ee80756f2b7e52ea6a8c37511[m
+Author: Cesar Alegre <cesaralegre670@gmail.com>
+Date:   Mon Nov 4 12:15:59 2024 -0300
+
+    Carpeta de imágenes y galería agregados
+
+[33mcommit 28612b15062542d8998507c047f8d4ae74f1a568[m
+Author: Cesar Alegre <cesaralegre670@gmail.com>
+Date:   Mon Nov 4 12:13:43 2024 -0300
+
+    Botón de volver a 'ver más' agregado
+
+[33mcommit 12c064a6ab36c2112ce05f9139cbeff887bcf875[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 10:50:51 2024 -0300
+
+    fix typo
+
+[33mcommit db7ba4590fc1a6400781bc087f2584c830fc6b2a[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 10:50:46 2024 -0300
+
+    change credits order
+
+[33mcommit e6c6bec89b5f998ad8dbfca9bb013adb59d6671b[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 10:50:33 2024 -0300
+
+    add video
+
+[33mcommit 089a29e0320fe5cf78e542de384ce46c21529df5[m
+Merge: 6341b66 db3506b
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Mon Nov 4 10:28:12 2024 -0300
+
+    Merge pull request #11 from MemoArguello/main
+    
+    correccion de imagenes
+
+[33mcommit db3506bda7f48477da755d4df9f1b76a9ac71dd1[m
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Mon Nov 4 09:43:01 2024 -0300
+
+    correccion de icono en el footer
+
+[33mcommit 31e6e6710d80ffb4c7ef462050f2744542221111[m
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Mon Nov 4 09:34:02 2024 -0300
+
+    correccion de imagenes
+
+[33mcommit 6341b66283a8b3e7f3c4d1236ed0a0377aa3a9aa[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 00:47:27 2024 -0300
+
+    add anchor link
+
+[33mcommit 074c49554047a8c893616bfaa00545486e821b6c[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 00:45:58 2024 -0300
+
+    add link to footer anchor
+
+[33mcommit 87039089891d40c2d4251507cf79b3b66e51a2bc[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Mon Nov 4 00:43:03 2024 -0300
+
+    add link to footer anchor
+
+[33mcommit 6d2b263e715367992b0ee98e6cce4126718e4402[m
+Merge: e1d5cd9 25122c6
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Mon Nov 4 00:38:03 2024 -0300
+
+    Merge pull request #10 from carloslarrero/main
+    
+    add responsables page
+
+[33mcommit 25122c6329d9ceaa26f85014cb940eb77c2650f5[m
+Merge: df8b3a6 e1d5cd9
+Author: Carlos Larré <carloslarre.cl@gmail.com>
+Date:   Mon Nov 4 00:29:31 2024 -0300
+
+    finish responsables page
+
+[33mcommit df8b3a62e8623fa54d9b40400c8718a0be49c633[m
+Author: Carlos Larré <carloslarre.cl@gmail.com>
+Date:   Mon Nov 4 00:26:22 2024 -0300
+
+    finish responsables page
+
+[33mcommit c58a784b05739815b60842b54aafb0c4ba99ad0e[m
+Author: Abel Amarilla <abelamarilla51777@gmail.com>
+Date:   Sun Nov 3 23:15:39 2024 -0300
+
+    some changes
+
+[33mcommit e1d5cd9f38bf0f83b16db423882fa56700a00eeb[m
+Merge: a77b5b1 5f33198
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Sun Nov 3 22:25:46 2024 -0300
+
+    Merge pull request #8 from Abelr09/main
+    
+    Las Batallas section
+
+[33mcommit 5f33198ecd19b08031de9c09055a4ebef6b28ab4[m
+Merge: 0bdc491 a77b5b1
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Sun Nov 3 22:24:05 2024 -0300
+
+    Merge branch 'main' into main
+
+[33mcommit 0bdc4911b3f7351bf213e12f397d976f114b2bc7[m
+Author: Abel Amarilla <abelamarilla51777@gmail.com>
+Date:   Sun Nov 3 21:59:35 2024 -0300
+
+    Las Batallas section
+
+[33mcommit a77b5b1b0606ca45cd509f0405b50380aa5699da[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sun Nov 3 20:34:40 2024 -0300
+
+    delete unnecessary coments
+
+[33mcommit d05665ac6374c9a72c433549ae0b33942ba186b5[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sun Nov 3 20:33:23 2024 -0300
+
+    delete unnecessary lock file
+
+[33mcommit 3381cfb3f385307e6597dd528c0ae56ee6fe5126[m
+Merge: 9ead0da d4d9deb
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Sun Nov 3 20:14:08 2024 -0300
+
+    Merge pull request #7 from Barboza13/main
+    
+    Bug fixes in design.
+
+[33mcommit d4d9debb6c4b16c6154a1654ae8a95d7be9a654b[m
+Author: Carlos Barboza <barbozacarlos678@gmail.com>
+Date:   Sun Nov 3 19:49:20 2024 -0300
+
+    Bug fixes in design.
+
+[33mcommit 9ead0da33cb8cf6aa97e52e59df5203994cacff2[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sun Nov 3 18:09:12 2024 -0300
+
+    fix Client Router transition error and add footer
+
+[33mcommit 2ee3d08918a6a176453893b6a8f87ac1c9349a7e[m
+Merge: 1ff85f7 19b4b85
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Sun Nov 3 17:50:11 2024 -0300
+
+    Merge pull request #6 from Barboza13/main
+    
+    Jesuit Section 1st version completed.
+
+[33mcommit 19b4b8552602fb8d43729893ef7022b30326ef49[m
+Merge: 8219a74 1ff85f7
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Sun Nov 3 17:49:27 2024 -0300
+
+    Merge branch 'main' into main
+
+[33mcommit 8219a74446cfeb10a8087fd786866f965343a0d8[m
+Author: Carlos Barboza <barbozacarlos678@gmail.com>
+Date:   Sun Nov 3 17:08:46 2024 -0300
+
+    Jesuit Section 1st version completed.
+
+[33mcommit 95769942427d840b02cc666d4ec3a71c6d54dcd8[m
+Author: Carlos Larré <carloslarre.cl@gmail.com>
+Date:   Sun Nov 3 14:28:20 2024 -0300
+
+    images on the card
+
+[33mcommit 1ff85f793bf409cc0f4203bbd3770841c337584b[m
+Merge: 19e6c4f 9405fd4
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Sun Nov 3 11:29:20 2024 -0300
+
+    Merge pull request #5 from ELALCOGO/main
+    
+    Archivo Index de Bandeirantes modificado y 6 Imagenes añadidas
+
+[33mcommit 9405fd414dba596164986e6f050b625e1b353f77[m
+Author: ELENOCORONEL <ELENOCORONEL@GMAIL.COM>
+Date:   Sun Nov 3 10:54:36 2024 -0300
+
+    Archivo Index de Bandeirantes modificado y 6 Imagenes añadidas en la carpeta public
+
+[33mcommit 4f969c54e72854da76be0473a8334af0fb80bf77[m
+Author: Carlos Larré <carloslarre.cl@gmail.com>
+Date:   Sun Nov 3 02:03:33 2024 -0300
+
+    images on the cards
+
+[33mcommit 19e6c4f9c1bf246083cc00009e6e03790775610f[m
+Merge: 0ea8491 7fffbb2
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Sat Nov 2 20:51:28 2024 -0300
+
+    Merge pull request #4 from MemoArguello/responsive
+    
+    style: boton de volver y responsividad de batalla
+
+[33mcommit a8252ccacb5c1e24f91aaf71db3cd53969d9d176[m
+Merge: 1dc2122 0ea8491
+Author: Carlos Larré <carloslarre.cl@gmail.com>
+Date:   Sat Nov 2 18:20:08 2024 -0300
+
+    add icons and tailwind styles
+
+[33mcommit 1dc21228229270990ccb93fec800566af636a354[m
+Author: Carlos Larré <carloslarre.cl@gmail.com>
+Date:   Sat Nov 2 17:35:21 2024 -0300
+
+    add card ui component
+
+[33mcommit ffa6472abdf420f8ef7ccd4a609b7798cdcc53c1[m
+Author: Carlos Larré <carloslarre.cl@gmail.com>
+Date:   Sat Nov 2 15:26:26 2024 -0300
+
+    añadido las tarjetas
+
+[33mcommit 7fffbb270d4dc60b72782b014e23ffcd715ec899[m
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Sat Nov 2 12:44:17 2024 -0300
+
+    diseño del boton volver, responsive: seccion batalla
+
+[33mcommit 54483af78108cf33884263e12246379b0022f569[m
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Sat Nov 2 12:20:28 2024 -0300
+
+    diseño del boton volver, responsive: seccion batalla
+
+[33mcommit 0ea84916a9e8b7188915b6b8315ea39178cc6d9e[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Nov 1 16:15:16 2024 -0300
+
+    refactor: delete unnecessary attributes and add non-relative utility classes
+
+[33mcommit a98ac43af9d1cd185abcc19dfceb8459a2941cde[m
+Merge: 34cbbf2 bb55cfd
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Fri Nov 1 16:10:48 2024 -0300
+
+    Merge pull request #3 from CesarAlegre08/main
+    
+    Footer component added
+
+[33mcommit bb55cfd1f89360ce791eae7c7077ec5ac5a1842a[m
+Author: Cesar Alegre <cesaralegre670@gmail.com>
+Date:   Fri Nov 1 15:27:59 2024 -0300
+
+    Add footer
+
+[33mcommit 34cbbf274a02c5d755b915b7d3061b84fddccd4f[m
+Merge: 92a1a2f 720be29
+Author: Lucas Isaias Casco <79144752+isaias-alt@users.noreply.github.com>
+Date:   Thu Oct 31 14:35:23 2024 -0300
+
+    Merge pull request #2 from MemoArguello/main
+    
+    Responsive seccion ver más
+
+[33mcommit 720be2981fc3f01756cd424427a01e04fccca6f1[m
+Merge: 92a1a2f ee90a34
+Author: Guillermo Argüello Cordobés <74156373+MemoArguello@users.noreply.github.com>
+Date:   Thu Oct 31 12:05:57 2024 -0300
+
+    Merge pull request #1 from MemoArguello/responsive
+    
+    responsividad en la seccion ver más
+
+[33mcommit ee90a34b0bb8abeab03ac06f2a9d6f2ec7f17f0d[m
+Author: Guillermo Arguello <elmemozac6@gmail.com>
+Date:   Thu Oct 31 11:50:53 2024 -0300
+
+    responsividad en la seccion ver más
+
+[33mcommit 92a1a2f00a5555c0f990d7ca282e89f6b77049ec[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Wed Oct 30 12:02:27 2024 -0300
+
+    add flowbite
+
+[33mcommit f6942b6c5d35b4e036b0cac8298b19334358a531[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Tue Oct 29 18:39:41 2024 -0300
+
+    fix pull request template
+
+[33mcommit 789e05adae4bf4c51233f8fca1174526edbb3725[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sat Oct 26 19:13:57 2024 -0300
+
+    add typography
+
+[33mcommit df1b296889ef9d32cf5e30c2b41b4d3988819b2e[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sat Oct 26 18:55:10 2024 -0300
+
+    add relative imports
+
+[33mcommit b7b6aca8a9ab665289995eb10db95a33cf6e24bc[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sat Oct 26 15:48:52 2024 -0300
+
+    add responsive to bandeirantes page
+
+[33mcommit f5fe52970eb2e79fe03d7e4aff2b36124eeb29a6[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sat Oct 26 15:48:12 2024 -0300
+
+    add la batalla page
+
+[33mcommit 48fb7a6d6168ce83f809bd24fa9ffe3f4487aa1f[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sat Oct 26 14:48:53 2024 -0300
+
+    add bandeirantes page
+
+[33mcommit 0209421b01923e3a5bb5acec718f1f3a6a0f7466[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sat Oct 26 14:48:39 2024 -0300
+
+    add bandeirantes page
+
+[33mcommit a8bfe48f8ceebd2f2c32978b90ab5cce7abb7ff3[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Sat Oct 26 14:26:10 2024 -0300
+
+    modify width
+
+[33mcommit 87efb6dd07913c6f9460f525eedf98861aeb92ee[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 23:16:59 2024 -0300
+
+    chore: add pull request template
+
+[33mcommit 5a724965e5927705cfc39f4293a0a7f1474a2178[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 23:08:15 2024 -0300
+
+    chore: add pull request template
+
+[33mcommit 994d10d3f7a6eb1e16e8bc4ae4caade3fd50d3f8[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 21:54:11 2024 -0300
+
+    setting up prettier and eslint
+
+[33mcommit dd14d51c753b58ae6cec072a62e6703d4c200891[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 17:32:21 2024 -0300
+
+    some magic trick :)
+
+[33mcommit b18e08d938ac0353f6f655323f5470b8b675dedb[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 17:00:08 2024 -0300
+
+    add GalleyIcon for future usages
+
+[33mcommit d9ea8f889314839bff95792c51c604a8a9cd7b57[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 16:50:17 2024 -0300
+
+    add a better tab title
+
+[33mcommit d8499d5426fb49b6206d727c07473839e4bb0827[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 16:44:51 2024 -0300
+
+    add guaranies-jesuitas page
+
+[33mcommit 385aad03d6c1d5d5047b6e03fb5e2dc33e53d7fb[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 16:44:38 2024 -0300
+
+    add go-back button resoponsiveness
+
+[33mcommit 09a48b889c7aea10c12cac7151dca0e8e4541b26[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 16:43:41 2024 -0300
+
+    add ClientRouter component for view transitions
+
+[33mcommit e300392fc480fbf8af3bc2c09cdff1b8171bd282[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 13:35:10 2024 -0300
+
+    add .vercel/ t gitignore
+
+[33mcommit bc2335c918d2bf4550d5b076bcce5d2dc8280a67[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 13:31:23 2024 -0300
+
+    add ver-mas page
+
+[33mcommit c4790951f6bb0cfe9f518b3bafe13f22951dcdda[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 13:31:16 2024 -0300
+
+    add Button ui component
+
+[33mcommit 3bc63f26665cdc5ab36f403fe5e562174b1ae5ef[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 13:30:52 2024 -0300
+
+    add and rename icons
+
+[33mcommit 793db5b55bfabf969afde28cfc0ae74f028d185d[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 13:30:38 2024 -0300
+
+    add Button ui component
+
+[33mcommit bf12e6e29ccd9a06bb1209b7d140661226948919[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 13:30:28 2024 -0300
+
+    add ver-mas page images
+
+[33mcommit b775e70b6cb93f1529d0efabb4b81f130e6d8859[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 13:30:17 2024 -0300
+
+    configuring colors
+
+[33mcommit c2ad3db933f2a33a9b7064c7d9e5661f756de387[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Fri Oct 25 11:05:02 2024 -0300
+
+    change hero image
+
+[33mcommit 1be01791e68fa96f3d4c0ba622fb7a7eaadf0647[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Thu Oct 24 13:07:14 2024 -0300
+
+    add prefetching
+
+[33mcommit 8c456ad2cf1f0868c52b1851d61caaabad31661d[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Thu Oct 24 12:45:48 2024 -0300
+
+    chore: optimize image and remove unnecessary images
+
+[33mcommit 0d13a3e5d17e4184f4f508e80c508344b0a45baa[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Thu Oct 24 12:26:31 2024 -0300
+
+    fix margin bug
+
+[33mcommit d1ac08374e7a18b1dfcdcc3240ff8274ee3ef66a[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Thu Oct 24 12:26:11 2024 -0300
+
+    delete unnecessary component
+
+[33mcommit 6a0d782d0b9f509a4dd71bf8ad5a925b1f06b976[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Wed Oct 23 15:41:52 2024 -0300
+
+    finish landing
+
+[33mcommit e14e921f11d71e7ce278c3db823601f2df85ea74[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Wed Oct 23 14:07:43 2024 -0300
+
+    changes
+
+[33mcommit 8745d8cfe826060023e7ef7e467e1be26eafd4cf[m
+Author: isaias-alt <cascolucasisaias@gmail.com>
+Date:   Tue Oct 22 23:23:56 2024 -0300
+
+    initialize project
+
+[33mcommit 5e5d895f811ae22f917dfb878a79002e4a0965ad[m
+Author: houston[bot] <astrobot-houston@users.noreply.github.com>
+Date:   Tue Oct 22 23:19:43 2024 -0300
+
+    Initial commit from Astro
