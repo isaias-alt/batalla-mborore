@@ -1,60 +1,25 @@
 ---
 import Card from '@components/ui/Card.astro';
 import { TEAM_MEMBERS } from '../../../data/teamData.js';
+import Layout from '@layouts/Layout.astro';
+import Footer from '@components/ui/Footer.astro';
 ---
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsables del Proyecto</title>
-</head>
-<body>
-
-  <h1>Responsables del Proyecto</h1>
-
-  <!-- Contenedor de las tarjetas -->
-  <div class="cards-container">
-    {TEAM_MEMBERS.map(member => (
-      <Card
-        name={member.name}
-        role={member.role}
-        imageUrl={member.imageUrl}
-        instagramUrl={member.instagramUrl}
-        linkedinUrl={member.linkedinUrl}
-        githubUrl={member.githubUrl}
-      />
-    ))}
-  </div>
-
-  <style>
-    body {
-      background-color: #DBD8C8;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    h1 {
-      color: #62060F;
-      font-size: 50px;
-      margin-bottom: 20px;
-    }
-
-    .cards-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 20px;
-      width: 100%;
-      max-width: 1200px;
-    }
-  </style>
-
-</body>
-</html>
-
+<Layout title='Responsables | Batalla de Mborore'>
+  <main class="flex flex-col items-center bg-secondary p-5">
+    <h1 class="text-primary text-5xl md:text-7xl font-bold text-center text-wrap mb-16">Responsables del Proyecto</h1>
+    <div class="grid grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] gap-5 w-full max-w-7xl">
+      {TEAM_MEMBERS.map(member => (
+        <Card
+          name={member.name}
+          role={member.role}
+          imageUrl={member.imageUrl}
+          instagramUrl={member.instagramUrl}
+          linkedinUrl={member.linkedinUrl}
+          githubUrl={member.githubUrl}
+        />
+      ))}
+    </div>
+  </main>
+    <Footer />
+</Layout>

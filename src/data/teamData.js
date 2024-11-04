@@ -1,7 +1,7 @@
 export const TEAM_MEMBERS = [
   {
     name: "Carmen Anahí Romero Marín ",
-    role: "Desarrollo del vídeo",
+    role: "Dirección, Producción y Animación",
     imageUrl: "/responsables/Anahi_Romero.webp",
     instagramUrl:
       "https://www.instagram.com/_anni_marin/profilecard/?igsh=MWYybXlkcjdsa2RiYQ==",
@@ -21,7 +21,7 @@ export const TEAM_MEMBERS = [
 
   {
     name: "Iván Daniel Cardozo Gonzalez",
-    role: "Dirección",
+    role: "Dirección y Animación",
     imageUrl: "/responsables/Ivan_Cardozo.webp",
     instagramUrl: "https://www.instagram.com/idcardozo78/?hl=es",
     linkedinUrl: "",
@@ -57,19 +57,28 @@ export const TEAM_MEMBERS = [
   },
 
   {
+    name: "Lourdes Caballero Colmán",
+    role: "Traducción",
+    imageUrl: "/responsables/lourdes.webp",
+    instagramUrl: "https://www.instagram.com/loucab1/",
+    linkedinUrl: "",
+    githubUrl: "",
+  },
+
+  {
     name: "Arnaldo Fabian Borda Martinez",
     role: "Desarrollador Web",
-    imageUrl: "/responsables/avatar.webp",
+    imageUrl: "/responsables/arnaldo.webp",
     instagramUrl: "https://www.instagram.com/arnaldo_b001/",
     linkedinUrl: "https://www.linkedin.com/in/aborda001/",
-    githubUrl: "",
+    githubUrl: "https://github.com/aborda001",
   },
 
   {
     name: "Perla Mariana Oribe Flores",
     role: "Asesor de Dialecto",
     imageUrl: "/responsables/Perla.webp",
-    instagramUrl: "https://www.instagram.com/perlaoribe/profilecard/?igsh=MWV1MDB5aHQ2N2E5bQ==",
+    instagramUrl: "https://www.instagram.com/perlaoribe/",
     linkedinUrl: "",
     githubUrl: "",
   },
@@ -263,11 +272,30 @@ export const TEAM_MEMBERS = [
     githubUrl: "https://github.com/RolandoRamos7",
   },
 
+
   {
-    name: "Lourdes Caballero Colmán",
-    role: "Traducción",
-    imageUrl: "/responsables/lourdes.webp",
-    instagramUrl: "https://www.instagram.com/loucab1/",
+    name: "Rodrigo Hernan López Corvalán",
+    role: "Actor de Voz",
+    imageUrl: "/responsables/rodri.webp",
+    instagramUrl: "https://www.instagram.com/rodrigohernan__/?hl=es",
+    linkedinUrl: "",
+    githubUrl: "",
+  },
+
+  {
+    name: "Manuel Maldonado",
+    role: "Asesor de Dialecto",
+    imageUrl: "/responsables/manu.webp",
+    instagramUrl: "https://www.instagram.com/manu.maldonad0/",
+    linkedinUrl: "",
+    githubUrl: "",
+  },
+
+  {
+    name: "Jesús Elian Lurachi",
+    role: "Actor de Voz",
+    imageUrl: "/responsables/lura.webp",
+    instagramUrl: "https://www.instagram.com/jesuslurachi/",
     linkedinUrl: "",
     githubUrl: "",
   },
