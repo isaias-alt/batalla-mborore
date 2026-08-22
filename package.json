@@ -10,8 +10,9 @@
     "astro": "astro"
   },
   "engines": {
-    "node": ">=24.19.0"
+    "node": ">=24.19.0 <25.0.0"
   },
+  "packageManager": "pnpm@11.22.0",
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@fontsource-variable/playfair-display": "^5.1.0",
