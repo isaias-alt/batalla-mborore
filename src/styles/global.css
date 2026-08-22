@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "flowbite/plugin";
+
+@source "../../node_modules/flowbite";
+
+@theme {
+  --color-primary: #62060f;
+  --color-secondary: #dbd8c8;
+  --color-tertiary: #87000d;
+}
